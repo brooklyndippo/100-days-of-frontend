@@ -1,0 +1,84 @@
+.profile-card {
+  max-width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px #abb0b46f;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+}
+
+#image {
+  min-height: 200px;
+  background-color: #24a8a8;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#image img {
+  place-self: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: right;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  min-width: 140px;
+  width: 40%;
+  padding: 10px 30px;
+  border-radius: 20px;
+  /* margin: 0 auto; */
+  border: none;
+}
+
+.primary-cta {
+  background-color: #24a8a8;
+  color: white;
+}
+
+.primary-cta:hover {
+  background-color: #096f6f;
+
+}
+
+.secondary-cta {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.secondary-cta:hover {
+  background-color: #f7fafc;
+}
+
+#name h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  letter-spacing: .15rem;
+}
+
+#name h2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  color: gray;
+}

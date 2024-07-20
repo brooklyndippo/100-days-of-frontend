@@ -1,0 +1,55 @@
+/* Add your custom styles here */
+html {
+  background-color: #d6e9f6;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7fafc;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+} 
+
+a {
+  text-decoration: none;
+  color: #3d73ac;
+}
+
+a:hover {
+  color: #1e4671;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+  box-shadow: 0px 5px 35px #becfdb;
+}
+
+.breadcrumbs, .breadcrumbs a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: lightslategray;
+}
+
+.breadcrumbs a:hover {
+  color: #1e4671;
+}
+
+section.design-to-code {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: aquamarine;
+  min-width: 500px;
+}
